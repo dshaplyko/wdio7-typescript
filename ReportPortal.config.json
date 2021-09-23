@@ -1,0 +1,18 @@
+{
+  "reportPortalClientConfig": {
+    "token": "",
+    "endpoint": "https://reportportal.epam.com/api/v1",
+    "launch": "test_launch",
+    "project": "test_project",
+    "debug": false,
+    "description": "description",
+    "tags": [
+      "RP",
+      "WDIO"
+    ]
+  },
+  "screenshotsLogLevel": "error",
+  "reportSeleniumCommands": false,
+  "seleniumCommandsLogLevel": "debug",
+  "parseTagsFromTestTitle": true
+}

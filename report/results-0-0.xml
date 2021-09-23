@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Left panel Fetch traces section Calendar" timestamp="2021-09-22T14:55:34" time="10.902" tests="10" failures="0" errors="0" skipped="7">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Left panel - Fetch traces section - Calendar:"/>
+      <property name="capabilities" value="chrome.93_0_4577_82.macosx"/>
+      <property name="file" value="./test/specs/calendar.e2e.ts"/>
+    </properties>
+    <testcase classname="chrome.93_0_4577_82.macosx.Left_panel_-_Fetch_traces_section_-_Calendar:" name="Calendar button hover state @extended @low @jira BLMBMON 14711" time="5.478">
+      <system-out><![CDATA[
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/url - {"url":"http://ecsc00a01c5c.epam.com:7171/"}
+RESULT: {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+RESULT: {"url":"http://ecsc00a01c5c.epam.com:7171/"}
+RESULT: {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+RESULT: {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ef5c3ce4-b429-451d-9bfd-b14b06a4a922","ELEMENT":"ef5c3ce4-b429-451d-9bfd-b14b06a4a922"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ef5c3ce4-b429-451d-9bfd-b14b06a4a922","ELEMENT":"ef5c3ce4-b429-451d-9bfd-b14b06a4a922"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ef5c3ce4-b429-451d-9bfd-b14b06a4a922","ELEMENT":"ef5c3ce4-b429-451d-9bfd-b14b06a4a922"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"ef5c3ce4-b429-451d-9bfd-b14b06a4a922","ELEMENT":"ef5c3ce4-b429-451d-9bfd-b14b06a4a922"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+RESULT: {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/ef5c3ce4-b429-451d-9bfd-b14b06a4a922/clear - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/ef5c3ce4-b429-451d-9bfd-b14b06a4a922/value - {"text":"exbyte=2F20"}
+RESULT: {"text":"exbyte=2F20"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".build-graph-container .rc-collapse-item .load-data button"}
+RESULT: {"using":"css selector","value":".build-graph-container .rc-collapse-item .load-data button"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"46c64c88-39c1-4e30-befc-79169b9b35f6","ELEMENT":"46c64c88-39c1-4e30-befc-79169b9b35f6"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"46c64c88-39c1-4e30-befc-79169b9b35f6","ELEMENT":"46c64c88-39c1-4e30-befc-79169b9b35f6"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"46c64c88-39c1-4e30-befc-79169b9b35f6","ELEMENT":"46c64c88-39c1-4e30-befc-79169b9b35f6"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"46c64c88-39c1-4e30-befc-79169b9b35f6","ELEMENT":"46c64c88-39c1-4e30-befc-79169b9b35f6"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".build-graph-container .rc-collapse-item .load-data button"}
+RESULT: {"using":"css selector","value":".build-graph-container .rc-collapse-item .load-data button"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/46c64c88-39c1-4e30-befc-79169b9b35f6/click - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__menu"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__menu"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__menu"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__menu"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/ea02968a-2a89-4653-b494-48feb80470cd/click - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__option"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__option"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__option"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__option"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__option"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__option"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"c57dfc9c-df82-4251-9e80-a29ec729e6de","ELEMENT":"c57dfc9c-df82-4251-9e80-a29ec729e6de"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"c57dfc9c-df82-4251-9e80-a29ec729e6de","ELEMENT":"c57dfc9c-df82-4251-9e80-a29ec729e6de"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"c57dfc9c-df82-4251-9e80-a29ec729e6de","ELEMENT":"c57dfc9c-df82-4251-9e80-a29ec729e6de"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"c57dfc9c-df82-4251-9e80-a29ec729e6de","ELEMENT":"c57dfc9c-df82-4251-9e80-a29ec729e6de"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/c57dfc9c-df82-4251-9e80-a29ec729e6de/click - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .fetch-button"}
+RESULT: {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .fetch-button"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"0718d80a-de7d-42b9-809f-81614940d86d","ELEMENT":"0718d80a-de7d-42b9-809f-81614940d86d"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"0718d80a-de7d-42b9-809f-81614940d86d","ELEMENT":"0718d80a-de7d-42b9-809f-81614940d86d"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"0718d80a-de7d-42b9-809f-81614940d86d","ELEMENT":"0718d80a-de7d-42b9-809f-81614940d86d"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"0718d80a-de7d-42b9-809f-81614940d86d","ELEMENT":"0718d80a-de7d-42b9-809f-81614940d86d"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .fetch-button"}
+RESULT: {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .fetch-button"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/0718d80a-de7d-42b9-809f-81614940d86d/click - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".content.main-region .collapsible__traces-panel .collapsible-panel__header"}
+RESULT: {"using":"css selector","value":".content.main-region .collapsible__traces-panel .collapsible-panel__header"}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/3b7fb9d0-2514-4fc2-a023-1dcf096cf345/attribute/aria-expanded - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":".trace-content .log-timestamp"}
+RESULT: {"using":"css selector","value":".trace-content .log-timestamp"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":".trace-content .log-timestamp"}
+RESULT: {"using":"css selector","value":".trace-content .log-timestamp"}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/334b8bab-3603-4ba2-baf5-87c85a6a4f29/text - {}
+RESULT: {}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/3e4ca6e1-cf12-4dba-b1f5-dcf86b3ae58b/text - {}
+RESULT: {}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/345f34ce-ef53-4244-aabc-fae36c46aa74/text - {}
+RESULT: {}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/8c2f7da6-c577-4e1e-9753-4f35f3ae3889/text - {}
+RESULT: {}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/236c8b2c-ec11-4174-83de-58e52f5de63c/text - {}
+RESULT: {}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/a5413c58-aa27-4d14-873c-9acbb6fd867a/text - {}
+RESULT: {}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/5f856d9a-e9b5-4dc2-9c2e-b522dfa973e3/text - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+RESULT: {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"62562f1f-3652-4189-8e76-f393fe4d4945","ELEMENT":"62562f1f-3652-4189-8e76-f393fe4d4945"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"62562f1f-3652-4189-8e76-f393fe4d4945","ELEMENT":"62562f1f-3652-4189-8e76-f393fe4d4945"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"62562f1f-3652-4189-8e76-f393fe4d4945","ELEMENT":"62562f1f-3652-4189-8e76-f393fe4d4945"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"62562f1f-3652-4189-8e76-f393fe4d4945","ELEMENT":"62562f1f-3652-4189-8e76-f393fe4d4945"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+RESULT: {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/62562f1f-3652-4189-8e76-f393fe4d4945/click - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+RESULT: {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+RESULT: {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+RESULT: {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/62562f1f-3652-4189-8e76-f393fe4d4945/rect - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function () {\n        return { scrollX: this.pageXOffset, scrollY: this.pageYOffset };\n    }).apply(null, arguments)","args":[]}
+RESULT: {"script":"return (function () {\n        return { scrollX: this.pageXOffset, scrollY: this.pageYOffset };\n    }).apply(null, arguments)","args":[]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/actions - {"actions":[{"type":"pointer","id":"finger1","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","duration":0,"x":200,"y":369}]}]}
+RESULT: {"actions":[{"type":"pointer","id":"finger1","parameters":{"pointerType":"mouse"},"actions":[{"type":"pointerMove","duration":0,"x":200,"y":369}]}]}
+COMMAND: DELETE /session/7a0c47424df1cdb45148ef6f8b2a2a91/actions - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+RESULT: {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/62562f1f-3652-4189-8e76-f393fe4d4945/css/background-color - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.93_0_4577_82.macosx.Left_panel_-_Fetch_traces_section_-_Calendar:" name="Calendar days @extended @low @jira BLMBMON 14707" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.93_0_4577_82.macosx.Left_panel_-_Fetch_traces_section_-_Calendar:" name="Calendar overview @criticalPath @high @jira BLMBMON 14706" time="2.626">
+      <system-out><![CDATA[
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/url - {"url":"http://ecsc00a01c5c.epam.com:7171/"}
+RESULT: {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+RESULT: {"url":"http://ecsc00a01c5c.epam.com:7171/"}
+RESULT: {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+RESULT: {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"2896b817-7dfe-4996-9006-10e86a01afca","ELEMENT":"2896b817-7dfe-4996-9006-10e86a01afca"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"2896b817-7dfe-4996-9006-10e86a01afca","ELEMENT":"2896b817-7dfe-4996-9006-10e86a01afca"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"2896b817-7dfe-4996-9006-10e86a01afca","ELEMENT":"2896b817-7dfe-4996-9006-10e86a01afca"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"2896b817-7dfe-4996-9006-10e86a01afca","ELEMENT":"2896b817-7dfe-4996-9006-10e86a01afca"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+RESULT: {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/2896b817-7dfe-4996-9006-10e86a01afca/clear - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/2896b817-7dfe-4996-9006-10e86a01afca/value - {"text":"exbyte=2F20"}
+RESULT: {"text":"exbyte=2F20"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".build-graph-container .rc-collapse-item .load-data button"}
+RESULT: {"using":"css selector","value":".build-graph-container .rc-collapse-item .load-data button"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"9122a962-b17b-4762-a06d-cd903ed791d8","ELEMENT":"9122a962-b17b-4762-a06d-cd903ed791d8"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"9122a962-b17b-4762-a06d-cd903ed791d8","ELEMENT":"9122a962-b17b-4762-a06d-cd903ed791d8"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"9122a962-b17b-4762-a06d-cd903ed791d8","ELEMENT":"9122a962-b17b-4762-a06d-cd903ed791d8"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"9122a962-b17b-4762-a06d-cd903ed791d8","ELEMENT":"9122a962-b17b-4762-a06d-cd903ed791d8"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".build-graph-container .rc-collapse-item .load-data button"}
+RESULT: {"using":"css selector","value":".build-graph-container .rc-collapse-item .load-data button"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/9122a962-b17b-4762-a06d-cd903ed791d8/click - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__menu"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__menu"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__menu"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__menu"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/fc3bdc63-d5a9-460e-89a5-cc07930332c0/click - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__option"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__option"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__option"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__option"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__option"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__option"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"c15e9368-b9af-4c01-8a7c-d3cd765342e9","ELEMENT":"c15e9368-b9af-4c01-8a7c-d3cd765342e9"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"c15e9368-b9af-4c01-8a7c-d3cd765342e9","ELEMENT":"c15e9368-b9af-4c01-8a7c-d3cd765342e9"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"c15e9368-b9af-4c01-8a7c-d3cd765342e9","ELEMENT":"c15e9368-b9af-4c01-8a7c-d3cd765342e9"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"c15e9368-b9af-4c01-8a7c-d3cd765342e9","ELEMENT":"c15e9368-b9af-4c01-8a7c-d3cd765342e9"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/c15e9368-b9af-4c01-8a7c-d3cd765342e9/click - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .fetch-button"}
+RESULT: {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .fetch-button"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"b935b83c-b592-4ca6-a9ff-b6649d14a1ac","ELEMENT":"b935b83c-b592-4ca6-a9ff-b6649d14a1ac"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"b935b83c-b592-4ca6-a9ff-b6649d14a1ac","ELEMENT":"b935b83c-b592-4ca6-a9ff-b6649d14a1ac"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"b935b83c-b592-4ca6-a9ff-b6649d14a1ac","ELEMENT":"b935b83c-b592-4ca6-a9ff-b6649d14a1ac"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"b935b83c-b592-4ca6-a9ff-b6649d14a1ac","ELEMENT":"b935b83c-b592-4ca6-a9ff-b6649d14a1ac"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .fetch-button"}
+RESULT: {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .fetch-button"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/b935b83c-b592-4ca6-a9ff-b6649d14a1ac/click - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".content.main-region .collapsible__traces-panel .collapsible-panel__header"}
+RESULT: {"using":"css selector","value":".content.main-region .collapsible__traces-panel .collapsible-panel__header"}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/4716b37f-12c2-424a-a93c-8c667ffa3cbc/attribute/aria-expanded - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":".trace-content .log-timestamp"}
+RESULT: {"using":"css selector","value":".trace-content .log-timestamp"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":".trace-content .log-timestamp"}
+RESULT: {"using":"css selector","value":".trace-content .log-timestamp"}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/4b05a6db-928a-4472-b105-0ad17a4c789c/text - {}
+RESULT: {}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/227fa138-5722-4670-8569-93926a8bc11d/text - {}
+RESULT: {}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/b26927f7-f0ea-43b1-b65d-84b5ad486626/text - {}
+RESULT: {}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/010c3af9-0414-4720-ac9e-8d3e10e9cb77/text - {}
+RESULT: {}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/b3db5b19-efea-42e3-af23-0ec3e98065c0/text - {}
+RESULT: {}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/e464f813-7c56-4107-a2d8-15267dfdf2ca/text - {}
+RESULT: {}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/b0611ff2-6221-44a6-96cd-f06fe6bd61cb/text - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+RESULT: {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"33073d81-be69-4cb2-aaca-5d130d51ce77","ELEMENT":"33073d81-be69-4cb2-aaca-5d130d51ce77"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"33073d81-be69-4cb2-aaca-5d130d51ce77","ELEMENT":"33073d81-be69-4cb2-aaca-5d130d51ce77"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"33073d81-be69-4cb2-aaca-5d130d51ce77","ELEMENT":"33073d81-be69-4cb2-aaca-5d130d51ce77"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"33073d81-be69-4cb2-aaca-5d130d51ce77","ELEMENT":"33073d81-be69-4cb2-aaca-5d130d51ce77"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+RESULT: {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/33073d81-be69-4cb2-aaca-5d130d51ce77/click - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".calendar__modal"}
+RESULT: {"using":"css selector","value":".calendar__modal"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":".calendar__modal"}
+RESULT: {"using":"css selector","value":".calendar__modal"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"69934280-de62-45b9-b4d4-a7eb705976b5","ELEMENT":"69934280-de62-45b9-b4d4-a7eb705976b5"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"69934280-de62-45b9-b4d4-a7eb705976b5","ELEMENT":"69934280-de62-45b9-b4d4-a7eb705976b5"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".calendar__modal .calendar__time-wrapper"}
+RESULT: {"using":"css selector","value":".calendar__modal .calendar__time-wrapper"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":".calendar__modal .calendar__time-wrapper"}
+RESULT: {"using":"css selector","value":".calendar__modal .calendar__time-wrapper"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"7169ff1a-d228-4cfe-98f0-40c2aafc80bf","ELEMENT":"7169ff1a-d228-4cfe-98f0-40c2aafc80bf"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"7169ff1a-d228-4cfe-98f0-40c2aafc80bf","ELEMENT":"7169ff1a-d228-4cfe-98f0-40c2aafc80bf"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".calendar__modal button.calendar__apply-button"}
+RESULT: {"using":"css selector","value":".calendar__modal button.calendar__apply-button"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":".calendar__modal button.calendar__apply-button"}
+RESULT: {"using":"css selector","value":".calendar__modal button.calendar__apply-button"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"0d0246b6-880f-471f-892b-4c8451526bdc","ELEMENT":"0d0246b6-880f-471f-892b-4c8451526bdc"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"0d0246b6-880f-471f-892b-4c8451526bdc","ELEMENT":"0d0246b6-880f-471f-892b-4c8451526bdc"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".calendar__modal .calendar-header__title"}
+RESULT: {"using":"css selector","value":".calendar__modal .calendar-header__title"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":".calendar__modal .calendar-header__title"}
+RESULT: {"using":"css selector","value":".calendar__modal .calendar-header__title"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"f5cfaacc-f1ef-4ba5-9088-e768239984f0","ELEMENT":"f5cfaacc-f1ef-4ba5-9088-e768239984f0"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"f5cfaacc-f1ef-4ba5-9088-e768239984f0","ELEMENT":"f5cfaacc-f1ef-4ba5-9088-e768239984f0"}]}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.93_0_4577_82.macosx.Left_panel_-_Fetch_traces_section_-_Calendar:" name="Apply button states @criticalPath @high @jira BLMBMON 14701" time="2.796">
+      <system-out><![CDATA[
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/url - {"url":"http://ecsc00a01c5c.epam.com:7171/"}
+RESULT: {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+RESULT: {"url":"http://ecsc00a01c5c.epam.com:7171/"}
+RESULT: {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+RESULT: {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"58c9e535-0b77-4bc8-a90b-6aa888d7fe97","ELEMENT":"58c9e535-0b77-4bc8-a90b-6aa888d7fe97"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"58c9e535-0b77-4bc8-a90b-6aa888d7fe97","ELEMENT":"58c9e535-0b77-4bc8-a90b-6aa888d7fe97"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"58c9e535-0b77-4bc8-a90b-6aa888d7fe97","ELEMENT":"58c9e535-0b77-4bc8-a90b-6aa888d7fe97"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"58c9e535-0b77-4bc8-a90b-6aa888d7fe97","ELEMENT":"58c9e535-0b77-4bc8-a90b-6aa888d7fe97"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+RESULT: {"using":"css selector","value":".build-graph-container .rc-collapse-item .ui-textarea"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/58c9e535-0b77-4bc8-a90b-6aa888d7fe97/clear - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/58c9e535-0b77-4bc8-a90b-6aa888d7fe97/value - {"text":"exbyte=2F20"}
+RESULT: {"text":"exbyte=2F20"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".build-graph-container .rc-collapse-item .load-data button"}
+RESULT: {"using":"css selector","value":".build-graph-container .rc-collapse-item .load-data button"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d46a4cfd-a51e-4ac9-8f6f-1ab4088d2df0","ELEMENT":"d46a4cfd-a51e-4ac9-8f6f-1ab4088d2df0"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d46a4cfd-a51e-4ac9-8f6f-1ab4088d2df0","ELEMENT":"d46a4cfd-a51e-4ac9-8f6f-1ab4088d2df0"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d46a4cfd-a51e-4ac9-8f6f-1ab4088d2df0","ELEMENT":"d46a4cfd-a51e-4ac9-8f6f-1ab4088d2df0"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"d46a4cfd-a51e-4ac9-8f6f-1ab4088d2df0","ELEMENT":"d46a4cfd-a51e-4ac9-8f6f-1ab4088d2df0"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".build-graph-container .rc-collapse-item .load-data button"}
+RESULT: {"using":"css selector","value":".build-graph-container .rc-collapse-item .load-data button"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/d46a4cfd-a51e-4ac9-8f6f-1ab4088d2df0/click - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__menu"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__menu"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__menu"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__menu"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param)"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/11e9ce76-53e6-4fa7-8862-24f1e853b13d/click - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__option"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__option"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__option"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__option"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__option"}
+RESULT: {"using":"css selector","value":"[data-testid='select']:not(.filter__param) .select__option"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"76ee7c24-cd68-428c-a7ac-5c2a5234d580","ELEMENT":"76ee7c24-cd68-428c-a7ac-5c2a5234d580"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"76ee7c24-cd68-428c-a7ac-5c2a5234d580","ELEMENT":"76ee7c24-cd68-428c-a7ac-5c2a5234d580"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"76ee7c24-cd68-428c-a7ac-5c2a5234d580","ELEMENT":"76ee7c24-cd68-428c-a7ac-5c2a5234d580"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"76ee7c24-cd68-428c-a7ac-5c2a5234d580","ELEMENT":"76ee7c24-cd68-428c-a7ac-5c2a5234d580"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/76ee7c24-cd68-428c-a7ac-5c2a5234d580/click - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .fetch-button"}
+RESULT: {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .fetch-button"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"898aeca1-9604-4ecc-bb4e-ae94249c0378","ELEMENT":"898aeca1-9604-4ecc-bb4e-ae94249c0378"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"898aeca1-9604-4ecc-bb4e-ae94249c0378","ELEMENT":"898aeca1-9604-4ecc-bb4e-ae94249c0378"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"898aeca1-9604-4ecc-bb4e-ae94249c0378","ELEMENT":"898aeca1-9604-4ecc-bb4e-ae94249c0378"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"898aeca1-9604-4ecc-bb4e-ae94249c0378","ELEMENT":"898aeca1-9604-4ecc-bb4e-ae94249c0378"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .fetch-button"}
+RESULT: {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .fetch-button"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/898aeca1-9604-4ecc-bb4e-ae94249c0378/click - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".content.main-region .collapsible__traces-panel .collapsible-panel__header"}
+RESULT: {"using":"css selector","value":".content.main-region .collapsible__traces-panel .collapsible-panel__header"}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/da2de966-b98b-42ae-8258-40d8edd7cb2a/attribute/aria-expanded - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":".trace-content .log-timestamp"}
+RESULT: {"using":"css selector","value":".trace-content .log-timestamp"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":".trace-content .log-timestamp"}
+RESULT: {"using":"css selector","value":".trace-content .log-timestamp"}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/ecc565bf-f4df-44a8-af39-c3774ec2d215/text - {}
+RESULT: {}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/e594e672-1289-4c8a-b020-a597d6454a8b/text - {}
+RESULT: {}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/37789bec-bf12-45ae-ba63-6013ec3ca3c0/text - {}
+RESULT: {}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/c2c617ab-a591-4147-8bda-4f0dccd57c08/text - {}
+RESULT: {}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/9d2e7695-11d9-4cea-b39d-fd168a28fd1a/text - {}
+RESULT: {}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/89a3b394-9f37-42ce-a1de-95d064d7bf3b/text - {}
+RESULT: {}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/4f994076-f1de-43e6-a513-34b9ac0500a2/text - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+RESULT: {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"3c33f367-5d3e-4ca8-b4f9-666b75a04e7b","ELEMENT":"3c33f367-5d3e-4ca8-b4f9-666b75a04e7b"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"3c33f367-5d3e-4ca8-b4f9-666b75a04e7b","ELEMENT":"3c33f367-5d3e-4ca8-b4f9-666b75a04e7b"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"3c33f367-5d3e-4ca8-b4f9-666b75a04e7b","ELEMENT":"3c33f367-5d3e-4ca8-b4f9-666b75a04e7b"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"3c33f367-5d3e-4ca8-b4f9-666b75a04e7b","ELEMENT":"3c33f367-5d3e-4ca8-b4f9-666b75a04e7b"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+RESULT: {"using":"css selector","value":".fetch-traces-container .rc-collapse-item .period-calendar-icon"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/3c33f367-5d3e-4ca8-b4f9-666b75a04e7b/click - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".calendar__modal button.calendar__apply-button"}
+RESULT: {"using":"css selector","value":".calendar__modal button.calendar__apply-button"}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/306936d2-217a-49eb-9d8a-ec5631049598/attribute/disabled - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".calendar__modal .react-datepicker__day--today"}
+RESULT: {"using":"css selector","value":".calendar__modal .react-datepicker__day--today"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"8cf630f0-9112-434c-94f9-086bf8a947f0","ELEMENT":"8cf630f0-9112-434c-94f9-086bf8a947f0"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"8cf630f0-9112-434c-94f9-086bf8a947f0","ELEMENT":"8cf630f0-9112-434c-94f9-086bf8a947f0"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"8cf630f0-9112-434c-94f9-086bf8a947f0","ELEMENT":"8cf630f0-9112-434c-94f9-086bf8a947f0"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"8cf630f0-9112-434c-94f9-086bf8a947f0","ELEMENT":"8cf630f0-9112-434c-94f9-086bf8a947f0"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".calendar__modal .react-datepicker__day--today"}
+RESULT: {"using":"css selector","value":".calendar__modal .react-datepicker__day--today"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/8cf630f0-9112-434c-94f9-086bf8a947f0/click - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".calendar__modal input.masked-input"}
+RESULT: {"using":"css selector","value":".calendar__modal input.masked-input"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":".calendar__modal input.masked-input"}
+RESULT: {"using":"css selector","value":".calendar__modal input.masked-input"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".calendar__modal input.masked-input"}
+RESULT: {"using":"css selector","value":".calendar__modal input.masked-input"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"a4be6c88-eec2-46d7-9829-0bd6666107d7","ELEMENT":"a4be6c88-eec2-46d7-9829-0bd6666107d7"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"a4be6c88-eec2-46d7-9829-0bd6666107d7","ELEMENT":"a4be6c88-eec2-46d7-9829-0bd6666107d7"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"a4be6c88-eec2-46d7-9829-0bd6666107d7","ELEMENT":"a4be6c88-eec2-46d7-9829-0bd6666107d7"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"a4be6c88-eec2-46d7-9829-0bd6666107d7","ELEMENT":"a4be6c88-eec2-46d7-9829-0bd6666107d7"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".calendar__modal input.masked-input"}
+RESULT: {"using":"css selector","value":".calendar__modal input.masked-input"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/a4be6c88-eec2-46d7-9829-0bd6666107d7/click - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".calendar__modal input.masked-input"}
+RESULT: {"using":"css selector","value":".calendar__modal input.masked-input"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/a4be6c88-eec2-46d7-9829-0bd6666107d7/clear - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".calendar__modal input.masked-input"}
+RESULT: {"using":"css selector","value":".calendar__modal input.masked-input"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/elements - {"using":"css selector","value":".calendar__modal input.masked-input"}
+RESULT: {"using":"css selector","value":".calendar__modal input.masked-input"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".calendar__modal input.masked-input"}
+RESULT: {"using":"css selector","value":".calendar__modal input.masked-input"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"a4be6c88-eec2-46d7-9829-0bd6666107d7","ELEMENT":"a4be6c88-eec2-46d7-9829-0bd6666107d7"}]}
+RESULT: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMEN ... (7762 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"a4be6c88-eec2-46d7-9829-0bd6666107d7","ELEMENT":"a4be6c88-eec2-46d7-9829-0bd6666107d7"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/execute/sync - {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"a4be6c88-eec2-46d7-9829-0bd6666107d7","ELEMENT":"a4be6c88-eec2-46d7-9829-0bd6666107d7"}]}
+RESULT: {"script":"return (function isElementClickable(elem) {\n    if (!elem.getBoundingClientRect || !elem.scrollIntoView || !elem.contains || !elem.getClientRects || !document.elementFromPoint) {\n        return false; ... (5149 more bytes)","args":[{"element-6066-11e4-a52e-4f735466cecf":"a4be6c88-eec2-46d7-9829-0bd6666107d7","ELEMENT":"a4be6c88-eec2-46d7-9829-0bd6666107d7"}]}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".calendar__modal input.masked-input"}
+RESULT: {"using":"css selector","value":".calendar__modal input.masked-input"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/a4be6c88-eec2-46d7-9829-0bd6666107d7/clear - {}
+RESULT: {}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/a4be6c88-eec2-46d7-9829-0bd6666107d7/value - {"text":"235959"}
+RESULT: {"text":"235959"}
+COMMAND: POST /session/7a0c47424df1cdb45148ef6f8b2a2a91/element - {"using":"css selector","value":".calendar__modal button.calendar__apply-button"}
+RESULT: {"using":"css selector","value":".calendar__modal button.calendar__apply-button"}
+COMMAND: GET /session/7a0c47424df1cdb45148ef6f8b2a2a91/element/306936d2-217a-49eb-9d8a-ec5631049598/attribute/disabled - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+    <testcase classname="chrome.93_0_4577_82.macosx.Left_panel_-_Fetch_traces_section_-_Calendar:" name="Month arrows @criticalPath @high @jira BLMBMON 14692" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.93_0_4577_82.macosx.Left_panel_-_Fetch_traces_section_-_Calendar:" name="Single day period @criticalPath @high @jira BLMBMON 14686" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.93_0_4577_82.macosx.Left_panel_-_Fetch_traces_section_-_Calendar:" name="Single day period Clicking a new day @criticalPath @high @jira BLMBMON 14689" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.93_0_4577_82.macosx.Left_panel_-_Fetch_traces_section_-_Calendar:" name="Applying period time and day chosen in the calendar @criticalPath @high @jira BLMBMON 14712" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.93_0_4577_82.macosx.Left_panel_-_Fetch_traces_section_-_Calendar:" name="Purging time period @extended @medium @jira BLMBMON 14693" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="chrome.93_0_4577_82.macosx.Left_panel_-_Fetch_traces_section_-_Calendar:" name="Active and inactive days @extended @medium @jira BLMBMON 14708" time="0">
+      <skipped/>
+      <system-out><![CDATA[
+COMMAND: DELETE /session/7a0c47424df1cdb45148ef6f8b2a2a91 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
